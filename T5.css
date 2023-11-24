@@ -249,8 +249,11 @@ header .links ul li:hover a {
     padding:13px 23px;
         font-size: 11px;
     }
+    header .container .links .logo{
+        margin-right: -140px;
+    }
     header .container .links ul {
-        width: 250px;
+        width: 200px;
     }
     .landing .container .text {
         width: 100%;
@@ -268,7 +271,6 @@ header .links ul li:hover a {
         width: 90%;
     }
     header .container .clicked .logo {
-        margin-right:-150px;
         color: rgb(165, 50, 0);
         margin-right: 10px;
     }
@@ -539,7 +541,7 @@ header .links ul li:hover a {
 
 @media (max-width:767px) {
     .content .parts ul li a{
-        padding: 7px 0px;
+        padding: 7px 10px;
     }
     .content .pics div{
         width: 90%;
