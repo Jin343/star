@@ -12,6 +12,7 @@ html {
     scroll-behavior: smooth;
 }
 * {
+    font-family: sans-serif;
     box-sizing: border-box;
 }
 
@@ -243,7 +244,7 @@ header .links ul li:hover a {
     }
 }
 
-@media (max-width:787px) {
+@media (max-width:767px) {
     .button {
     padding:13px 23px;
         font-size: 11px;
@@ -255,14 +256,19 @@ header .links ul li:hover a {
         width: 100%;
     }
     .landing .container .text h3 {
-        font-size: 40px;
+        font-size: 43px;
     }
     .landing .container .text p {
         font-size:12px ;
     }
-}
-@media (max-width:767px){
+    .landing .container {
+        width: 95%;
+    }
+    .landing .container .text p{
+        width: 90%;
+    }
     header .container .clicked .logo {
+        margin-right:-150px;
         color: rgb(165, 50, 0);
         margin-right: 10px;
     }
@@ -533,7 +539,7 @@ header .links ul li:hover a {
 
 @media (max-width:767px) {
     .content .parts ul li a{
-        padding: 7px 20px;
+        padding: 7px 0px;
     }
     .content .pics div{
         width: 90%;
